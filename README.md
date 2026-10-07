@@ -9,7 +9,7 @@ Each folder contains at least three files: `<README-file>.md`, `<jupiter-noteboo
 
 ### ⚙️ System used
 - **IDE:** I use Google Colab workspace, and this is the answer about why I have different jupiter notebooks, but you are free to use the CUDA files also locally on your computer if you are rich enough to have a NVIDIA GPU in 2026
-  - You are free to give me a free NVIDIA GPU for Christmas! xD
+  - You are free to give me a free NVIDIA GPU for Christmas btw! xD
 - **DEVICE:** because I am poor, each CUDA program was compiled on a GPU T4
 - **NVIDIA System Management Interface:**
   ```text
