@@ -5,12 +5,12 @@ This repository is a simply journey to learn CUDA programming language based on 
 
 ## Some info
 ### 📁 Repository
-- **Folders structure:** each folder contains at least three files: `<README-file>.md`, `<jupiter-notebook-file>.ipynb` and `<cuda-file>.cu`.
+Each folder contains at least three files: `<README-file>.md`, `<jupiter-notebook-file>.ipynb` and `<cuda-file>.cu`.
 
 ### ⚙️ System used
-- **IDE:** I use Google Colab workspace, and this is the answer about why I have different jupiter notebooks, but you are free to use the CUDA files also locally on your computer if you are rich enough to have a NVIDIA GPU in 2026.
+- **IDE:** I use Google Colab workspace, and this is the answer about why I have different jupiter notebooks, but you are free to use the CUDA files also locally on your computer if you are rich enough to have a NVIDIA GPU in 2026
   - You are free to give me a free NVIDIA GPU for Christmas! xD
-- **DEVICE:** because I am poor, each CUDA program was compiled on a GPU T4.
+- **DEVICE:** because I am poor, each CUDA program was compiled on a GPU T4
 - **NVIDIA System Management Interface:**
   ```text
   +-----------------------------------------------------------------------------------------+
@@ -37,13 +37,13 @@ This repository is a simply journey to learn CUDA programming language based on 
 ### 📝 How to use Google Colab Workspace (only for this journey)
 If you are poor like me you can learn, without any problems, free on Colab.
 
-1. Open [Colab](https://colab.research.google.com/) from your browser.
-2. Login with your Google account.
-3. Now you have two ways to start a jupiter notebook.
-  a. you can start a new one by clicking the button `+ New notebook`.
-  b. or you can upload one of mine jupiter notebooks by clicking the button `Upload notebook`.
-4. Change the hardware accelerator in `Runtime/Change runtime type/` with the `T4 GPU` (let the runtime type or change it in `Python 3`).
-5. Run these commands on the jupiter notebook to check the hardware and download the `cuda toolkit`.
+1. Open [Colab](https://colab.research.google.com/) from your browser
+2. Login with your Google account
+3. Now you have two ways to start a jupiter notebook
+     - you can start a new one by clicking the button `+ New notebook`
+     - or you can upload one of mine jupiter notebooks by clicking the button `Upload notebook`
+5. Change the hardware accelerator in `Runtime/Change runtime type/` with the `T4 GPU` (let the runtime type or change it in `Python 3`)
+6. Run these commands on the jupiter notebook to check the hardware and download the `cuda toolkit`
    ```bash
    !nvidia-smi
    !apt-get update
@@ -85,8 +85,8 @@ If you are poor like me you can learn, without any problems, free on Colab.
    Cuda compilation tools, release 13.0, V13.0.88
    Build cuda_13.0.r13.0/compiler.36424714_0
    ```
-6. Select the folder section on the left side
-7. Right click on the void of the panel and choose if you want to upload one of mine CUDA files or you want to create a new one from zero
+7. Select the folder section on the left side
+8. Right click on the void of the panel and choose if you want to upload one of mine CUDA files or you want to create a new one from zero
 
 Now you are ready to work and become a master CUDA programmer 🎉
 
